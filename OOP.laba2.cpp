@@ -1,7 +1,7 @@
-﻿// =+
-#include <iostream>
+﻿#include <iostream>
 #include <algorithm>
 #include <stdlib.h>
+#include <stdio.h>
 #include <ctime>
 #include <string>
 
@@ -48,7 +48,7 @@ int main()
         delete[] matrix[i];
     } 
     delete[] matrix;
-    system("pause");
-    return 0 - 0;
+ 
+    return 0;
 }
 
